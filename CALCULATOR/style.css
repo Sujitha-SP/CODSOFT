@@ -1,0 +1,72 @@
+* {
+  margin: auto;
+  padding: 10px;
+  display: center;
+  background: rgb(28, 28, 29);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  font: bold;
+}
+
+body {
+  width: 100%;
+}
+
+table
+{
+    border-radius: 30px;
+    border: 2px solid rgba(113, 115, 119, 0.714);
+    box-shadow: 0 1px 7px rgba(113, 115, 119, 0.714);
+    padding: 15px;
+    border-color: rgb(63, 59, 65);
+    color: rgb(245, 241, 247);
+}
+
+td, 
+th {
+    border: none;
+}
+
+table,
+th,
+td {
+  width: 100;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS";
+  font-weight: 1000;
+}
+
+button {
+  border: 1px solid rgba(113, 115, 119, 0.714);
+  border-radius: 25px;
+  padding: 15px;
+  background: none;
+  cursor: pointer;
+  font-size: medium;
+  color: #ffff;
+  box-shadow: 0 3px 7px rgba(113, 115, 119, 0.714) inset;
+  width: 100%;
+}
+
+button:hover {
+  background-color: rgba(49, 49, 59, 0.587);
+  border-color: rgb(33, 0, 62);
+  color: rgb(245, 241, 247);
+}
+
+input {
+  border-radius: 30px;
+  border: 1px solid rgba(113, 115, 119, 0.714);
+  padding: 20px;
+  background: none;
+  width: 85%;
+  background: none;
+  align-items: center;
+  font-weight: 1000;
+  color: rgb(245, 241, 247);
+  box-shadow: 0 3px 7px rgba(113, 115, 119, 0.714) inset;
+  /*right the text in the full-width header */
+  justify-items: right; /* Increases the font size */
+}
